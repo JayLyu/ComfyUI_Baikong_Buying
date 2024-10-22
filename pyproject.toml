@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_baikong_buying"
+description = "Buying decision factor | 买房决策因子"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["seaborn",]
+
+[project.urls]
+Repository = "https://github.com/JayLyu/ComfyUI_Baikong_Buying"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "baikong"
+DisplayName = "ComfyUI_Baikong_Buying"
+Icon = ""
