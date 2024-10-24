@@ -14,8 +14,6 @@ def tensor2pil(image):
     return Image.fromarray(np.clip(255. * image.cpu().numpy().squeeze(), 0, 255).astype(np.uint8))
 
 # Convert PIL to Tensor
-
-
 def pil2tensor(image):
     return torch.from_numpy(np.array(image).astype(np.float32) / 255.0).unsqueeze(0)
 
@@ -60,6 +58,10 @@ class BK_HousingDecision:
     FUNCTION = "calculate_housing_decision"
     OUTPUT_NODE = True
     CATEGORY = "⭐️ Baikong"
+    DESCRIPTION = """
+通过综合收入和支出的因素，帮助买房者预测未来的购房回报。
+Helps homebuyers predict future returns by analyzing income and expense factors.
+    """
 
     def calculate_housing_decision(self, 初始资金池, 房价, 首付比例, 交房等待月份, 房贷年限, 公积金贷款额度, 公积金贷款利率, 商业贷款利率,
                                    未来是否卖出房产, 卖出月份, 房产增值率, 月开销, 租房费用, 月收入, 工资年涨幅, 公积金,

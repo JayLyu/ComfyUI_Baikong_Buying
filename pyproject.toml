@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_baikong_buying"
-description = "Buying decision factor | 买房决策因子"
-version = "1.0.0"
+description = "Home Buying Decision Factors | 买房决策因子"
+version = "1.0.1"
 license = { file = "LICENSE" }
 dependencies = ["seaborn",]
 
