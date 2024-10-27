@@ -12,6 +12,4 @@ By considering income, expenses, and their variations when buying a home, we can
 
 汇总目标房产信息
 
-| workflow |
-| --- |
-| ![workflow-1](./images/workflow-1.png) |
+![workflow-1](./images/workflow-2.png)
