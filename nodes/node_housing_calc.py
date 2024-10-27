@@ -50,7 +50,7 @@ class BK_HousingCalc:
     FUNCTION = "exec"
     OUTPUT_NODE = True
     CATEGORY = "⭐️ Baikong"
-    DESCRIPTION = "使用 Table 预览数据，并输出 csv、json 两种格式的结果"                                                                                         Excel"
+    DESCRIPTION = "使用表格预览数据，并输出csv、json两种格式的结果"
 
     def json_to_table(self, json_data):
 
@@ -133,8 +133,7 @@ class BK_HousingCalc:
                         ascending = [ascending] * len(valid_columns)
 
                     df = df.sort_values(by=valid_columns, ascending=ascending)
-                    print(f"[BK_Table_Preview] ○ Sorted by {
-                          valid_columns} in {sort_direction} order")
+                    print(f"[BK_Table_Preview] ○ Sorted by {valid_columns} in {sort_direction} order")
                 else:
                     print(
                         f"[BK_Table_Preview] ⚠️ Warning: No valid column names found in {sort_by}")

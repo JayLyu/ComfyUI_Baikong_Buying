@@ -8,7 +8,10 @@ By considering income, expenses, and their variations when buying a home, we can
 
 | workflow | output |
 | --- | --- |
-| ![workflow](./images/workflow.png) | ![preview](./images/preview.png) |
+| ![workflow-1](./images/workflow-1.png) | ![preview](./images/preview.png) |
 
+汇总目标房产信息
 
-
+| workflow |
+| --- |
+| ![workflow-1](./images/workflow-1.png) |
