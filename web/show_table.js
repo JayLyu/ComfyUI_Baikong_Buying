@@ -64,4 +64,4 @@ function registerColorNode(nodeName) {
   });
 }
 
-registerColorNode("BK_Table_Preview");
+// registerColorNode("BK_Table_Preview");
